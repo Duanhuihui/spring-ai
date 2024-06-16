@@ -91,7 +91,7 @@ static class Config {
 
 The `@Description` annotation is optional and provides a function description (2) that helps the model to understand when to call the function.  It is an important property to set to help the AI model determine what client side function to invoke.
 
-Another option to provide the description of the function is to the `@JacksonDescription` annotation on the `MockWeatherService.Request` to provide the function description:
+Another option to provide the description of the function is to the `@JsonDescription` annotation on the `MockWeatherService.Request` to provide the function description:
 
 [source,java]
 ----
